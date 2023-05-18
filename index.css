@@ -1,0 +1,147 @@
+.mainContainer {
+    height: 100vh;
+    width: auto display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.section1 {
+    /* border: 1px solid lightsalmon; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background-color: #1f2937;
+    color: azure;
+    padding: 10px 50px 60px;
+}
+
+.logo {
+    font-size: 24px;
+    color: f9faf8;
+    font-weight: bold;
+}
+
+.header {
+    /* border: 1px solid yellow; */
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.links {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    color: white;
+}
+
+.links a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.titlepage {
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 50px;
+}
+
+.titlepage div {
+    /* border: 5px solid white; */
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.feature-image {
+    height: auto;
+    width: 400px;
+}
+
+.signupButton {
+    display: inline-block;
+    background-color: #1877F2;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.section2 {
+    border: 1px solid lightslategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: auto;
+    gap: 10px;
+}
+
+
+/* .section2 div {
+    border: 1px solid red;
+    gap: 10px;
+    padding: 20px;
+} */
+
+.section-two-title h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding: 20px;
+}
+
+.smaller-sections2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.smaller-sections2 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #115dc7;
+    height: 80px;
+    width: 150px;
+    border-radius: 5%;
+}
+
+.subtext {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 200px;
+}
