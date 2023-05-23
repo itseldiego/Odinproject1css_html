@@ -1,0 +1,76 @@
+/* Original CSS code */
+
+.mainContainer {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+/* Add media query for mobile devices */
+
+@media (max-width: 600px) {
+    .mainContainer {
+        height: auto;
+    }
+    .section1 {
+        padding: 10px;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .links {
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+    }
+    .titlepage {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .titlepage div {
+        width: 100%;
+    }
+    .main-text {
+        font-size: 36px;
+    }
+    .feature-image {
+        width: 100%;
+        max-width: 300px;
+    }
+    .section2 {
+        padding: 10px;
+    }
+    .smaller-sections2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .emoji {
+        height: 60px;
+        width: 120px;
+    }
+    .subtext {
+        width: 100%;
+    }
+    .section3 {
+        padding: 20px;
+        font-size: 22px;
+    }
+    .section3 .quote {
+        width: 100%;
+    }
+    .section4 {
+        padding: 10px;
+    }
+    .advertisement {
+        padding: 20px;
+        gap: 20px;
+    }
+    footer {
+        font-size: 12px;
+    }
+}
